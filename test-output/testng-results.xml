@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34191" started-at="2021-03-26T16:54:48Z" finished-at="2021-03-26T16:55:22Z">
+  <suite name="Default suite" duration-ms="17826" started-at="2021-03-26T17:09:28Z" finished-at="2021-03-26T17:09:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34191" started-at="2021-03-26T16:54:48Z" finished-at="2021-03-26T16:55:22Z">
+    <test name="Default test" duration-ms="17826" started-at="2021-03-26T17:09:28Z" finished-at="2021-03-26T17:09:46Z">
       <class name="com.scripts.SubscribeTest">
-        <test-method status="PASS" signature="addingSubscribe()[pri:0, instance:com.scripts.SubscribeTest@19bb089b]" name="addingSubscribe" duration-ms="34175" started-at="2021-03-26T22:24:48Z" finished-at="2021-03-26T22:25:22Z">
+        <test-method status="PASS" signature="addingSubscribe()[pri:0, instance:com.scripts.SubscribeTest@19bb089b]" name="addingSubscribe" duration-ms="17810" started-at="2021-03-26T22:39:28Z" finished-at="2021-03-26T22:39:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingSubscribe -->
