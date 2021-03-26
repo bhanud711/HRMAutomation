@@ -7,7 +7,7 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 
-public class LoginWithIE {
+public class LoginWithIETest {
 	@Test
 	public void loginWithIE() throws InterruptedException
 	{  DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
@@ -20,7 +20,7 @@ public class LoginWithIE {
 	driver.manage().window().maximize();
 	System.out.println(driver.getCurrentUrl());
 	System.out.println(driver.getTitle());
-	Thread.sleep(10000);
+	//Thread.sleep(10000);
 	driver.findElement(By.id("txtUsername")).sendKeys("Admin");
 	driver.findElement(By.id("txtPassword")).sendKeys("admin123");
 	driver.findElement(By.id("btnLogin")).click();

@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="com.scripts.CrossBrowserTest"/>
+      <class name="com.scripts.LoginWithIETest"/>
       <class name="com.scripts.LoginInvalidCredentialsTest"/>
       <class name="com.scripts.LoginValidCredentialsTest"/>
       <class name="com.scripts.LoginURLAndTitleTest"/>

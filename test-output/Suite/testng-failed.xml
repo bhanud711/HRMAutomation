@@ -4,9 +4,19 @@
   <test name="Test">
     <classes>
       <class name="com.scripts.CrossBrowserTest"/>
+      <class name="com.scripts.LoginWithIETest"/>
       <class name="com.scripts.LoginInvalidCredentialsTest"/>
       <class name="com.scripts.LoginValidCredentialsTest"/>
       <class name="com.scripts.LoginURLAndTitleTest"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.scripts.CrossBrowserTest">
+        <methods>
+          <include name="nonFunction"/>
+        </methods>
+      </class> <!-- com.scripts.CrossBrowserTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
