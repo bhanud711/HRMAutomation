@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8129" started-at="2021-03-27T09:36:57Z" finished-at="2021-03-27T09:37:05Z">
+  <suite name="Default suite" duration-ms="7085" started-at="2021-03-27T09:41:03Z" finished-at="2021-03-27T09:41:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8129" started-at="2021-03-27T09:36:57Z" finished-at="2021-03-27T09:37:05Z">
-      <class name="com.scripts.IconsTest">
-        <test-method status="PASS" signature="iconsClick()[pri:0, instance:com.scripts.IconsTest@19bb089b]" name="iconsClick" duration-ms="8105" started-at="2021-03-27T15:06:57Z" finished-at="2021-03-27T15:07:05Z">
+    <test name="Default test" duration-ms="7085" started-at="2021-03-27T09:41:03Z" finished-at="2021-03-27T09:41:10Z">
+      <class name="com.scripts.YoutubeIconTest">
+        <test-method status="PASS" signature="youtubeIconClick()[pri:0, instance:com.scripts.YoutubeIconTest@19bb089b]" name="youtubeIconClick" duration-ms="7070" started-at="2021-03-27T15:11:03Z" finished-at="2021-03-27T15:11:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iconsClick -->
-      </class> <!-- com.scripts.IconsTest -->
+        </test-method> <!-- youtubeIconClick -->
+      </class> <!-- com.scripts.YoutubeIconTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
