@@ -19,7 +19,7 @@ public class IconsTest {
 		WebElement version = driver.findElement(By.xpath("//div[text()[contains(.,'OrangeHRM 4.7')]]"));
 	    System.out.println(version.getText());
 	    driver.findElement(By.xpath("//img[@alt='OrangeHRM on twitter']")).click();
-	
+	System.out.println("twitter details displayed");
 	}
 
 }
