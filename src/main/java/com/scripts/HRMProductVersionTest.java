@@ -18,6 +18,7 @@ public class HRMProductVersionTest {
 		System.out.println(driver.getTitle());
 		WebElement version = driver.findElement(By.xpath("//div[text()[contains(.,'OrangeHRM 4.7')]]"));
 	    System.out.println(version.getText());
+	    driver.findElement(By.xpath("//img[@alt='LinkedIn OrangeHRM group']")).click();
 	
 	}
 
