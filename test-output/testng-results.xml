@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17826" started-at="2021-03-26T17:09:28Z" finished-at="2021-03-26T17:09:46Z">
+  <suite name="Default suite" duration-ms="16328" started-at="2021-03-27T09:14:03Z" finished-at="2021-03-27T09:14:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17826" started-at="2021-03-26T17:09:28Z" finished-at="2021-03-26T17:09:46Z">
-      <class name="com.scripts.SubscribeTest">
-        <test-method status="PASS" signature="addingSubscribe()[pri:0, instance:com.scripts.SubscribeTest@19bb089b]" name="addingSubscribe" duration-ms="17810" started-at="2021-03-26T22:39:28Z" finished-at="2021-03-26T22:39:46Z">
+    <test name="Default test" duration-ms="16328" started-at="2021-03-27T09:14:03Z" finished-at="2021-03-27T09:14:19Z">
+      <class name="com.scripts.HRMProductVersionTest">
+        <test-method status="PASS" signature="productVersion()[pri:0, instance:com.scripts.HRMProductVersionTest@19bb089b]" name="productVersion" duration-ms="16313" started-at="2021-03-27T14:44:03Z" finished-at="2021-03-27T14:44:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addingSubscribe -->
-      </class> <!-- com.scripts.SubscribeTest -->
+        </test-method> <!-- productVersion -->
+      </class> <!-- com.scripts.HRMProductVersionTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
