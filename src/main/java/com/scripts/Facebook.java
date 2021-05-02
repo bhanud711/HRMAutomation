@@ -32,6 +32,7 @@ public class Facebook {
 		
 		System.out.println("Title of the Linked in Page"+driver.getTitle());
 		System.out.println("Child Window URL"+driver.getCurrentUrl());
+		System.out.println("Please write script for facebook page");
 		
 	}
 
