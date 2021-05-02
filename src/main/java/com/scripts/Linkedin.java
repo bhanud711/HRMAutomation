@@ -15,6 +15,8 @@ public class Linkedin {
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getTitle());
 		driver.findElement(By.xpath("//img[@alt='LinkedIn OrangeHRM group']")).click();
+		System.out.println("Title of the Linked in Page"+driver.getTitle());
+		System.out.println("Child Window URL"+driver.getCurrentUrl());
 	}
 
 }
